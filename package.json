@@ -1,12 +1,13 @@
 {
   "name": "devconnector",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Social network for developers",
   "main": "server.js",
   "scripts": {
     "test": "node server",
     "server": "nodemon server",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "Rafael Ribeiro de Sousa <faelribeirodesousa@gmail.com>",
@@ -24,7 +25,8 @@
   "devDependencies": {
     "concurrently": "^5.1.0",
     "cz-conventional-changelog": "^3.1.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "standard-version": "^7.1.0"
   },
   "config": {
     "commitizen": {
